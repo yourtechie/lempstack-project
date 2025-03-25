@@ -133,7 +133,7 @@ sudo   sudo systemctl enable nginx
 
 4. Activate your configuration by linking to the config file.
    ```
-   sudo ln -s /etc/nginx/sites-available/lemp_project /etc/nginx/sites-enabled/
+   sudo ln -s /etc/nginx/sites-available/projectLEMP /etc/nginx/sites-enabled/
    ```
    ![](images/12.png)
 
