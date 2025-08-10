@@ -243,7 +243,7 @@ Exit the mysql shell, type exit and enter
 
 9. Create PHP Script that connects to the DB:
    ```
-   nano /var/www/projectLEMP/todo_list.php   
+   sudo nano /var/www/projectLEMP/todo_list.php   
    ```
    ```php
    <?php
