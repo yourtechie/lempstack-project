@@ -35,7 +35,7 @@ sudo apt upgrade -y
    ```
 2. Start and enable Nginx:
    ```bash
-sudo   sudo systemctl enable nginx
+   sudo systemctl enable nginx
    ```
 
 3. Verify Nginx is running:
@@ -45,7 +45,7 @@ sudo   sudo systemctl enable nginx
 
 4. Open your browser and navigate to your EC2 public IP to see the Nginx default welcome page or run:
    ```bash
-   curl http://localhost:80
+   curl http://<ip-address>
    ```
    ![curl on the server](images/5.png)
    ![checking on the browser](images/6.png) 
