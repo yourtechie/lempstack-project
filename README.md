@@ -97,13 +97,9 @@ sudo apt upgrade -y
    ```
    sudo mkdir /var/www/projectLEMP
    ```
-2. Assign ownership of directory with the $USER environment variable:
-   ```
-   sudo chown -R $USER:USER /var/www/projectLEMP
-   ```
       ![](images/11.png)
 
-3. Open a new configuration file in NGINX sites-available directory:
+2. Open a new configuration file in NGINX sites-available directory:
    ```
     sudo nano /etc/nginx/sites-available/projectLEMP
    ```
@@ -132,13 +128,13 @@ sudo apt upgrade -y
    }
    ```
 
-4. Activate your configuration by linking to the config file.
+3. Activate your configuration by linking to the config file.
    ```
    sudo ln -s /etc/nginx/sites-available/projectLEMP /etc/nginx/sites-enabled/
    ```
    ![](images/12.png)
 
-5. Test your configuration for syntax errors: 
+4. Test your configuration for syntax errors: 
    ```
    sudo nginx -t
    ```
@@ -146,11 +142,11 @@ sudo apt upgrade -y
 
    **Note:** Check Errors 1. at the bottom of this solution to see how this was resolved.
 
-6. Disable default NGINX host:   
+5. Disable default NGINX host:   
    ```
    sudo unlink /etc/nginx/sites-enabled/default
    ```
-7. Reload NGINX to apply changes:
+6. Reload NGINX to apply changes:
    ```
    sudo systemctl reload nginx
    ```
