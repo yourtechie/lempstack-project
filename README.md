@@ -239,7 +239,9 @@ Exit the mysql shell, type exit and enter
    ```
    This will display all the data in the todo_list table.
 
-8. Create PHP Script that connects to the DB:
+   Exit MySQL Shell - exit
+
+9. Create PHP Script that connects to the DB:
    ```
    nano /var/www/projectLEMP/todo_list.php   
    ```
