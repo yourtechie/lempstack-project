@@ -181,7 +181,7 @@ sudo apt upgrade -y
 ### Step 9: Retrieving MySQL Data from Database with PHP
 1. Connect to the MySQL console using:
    ```bash
-   sudo mysql
+   sudo mysql -p
    ```
 
 2. To create a new database:
