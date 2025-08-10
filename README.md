@@ -197,7 +197,7 @@ sudo apt upgrade -y
    ```
    GRANT ALL ON example_database.* TO 'example_user'@'%';
    ```
-
+Exit the mysql shell, type exit and enter
 4. Test if the user has proper permissions by logging in the MySQL console:
    ```
    mysql -u example_user -p
