@@ -71,6 +71,7 @@ sudo apt upgrade -y
    ```
 
 3. Secure MySQL installation:
+   Exit the MySQL shell - type exit and press enter
    ```bash
    sudo mysql_secure_installation;
    ```
